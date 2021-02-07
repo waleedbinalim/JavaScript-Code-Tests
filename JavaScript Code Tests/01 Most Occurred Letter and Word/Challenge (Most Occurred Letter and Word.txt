@@ -1,0 +1,36 @@
+Given a string of words as an input
+
+	'word1 word2 word3 word4'
+
+Task is to output the word with the most repeated letters
+than any other words of the string. In case two words have
+the same number of repeated letters, output -1 as the answer
+
+CASE 1
+
+	Input: 'Hello World'
+
+	Output: 'Hello'
+
+Explaination: Since Hello contains 2 'l's we output it
+
+
+CASE 2
+
+	Input: 'Preach Tree Too'
+
+	Output: -1
+
+Explaination: Tree contains 2 e's and Two contains 2 o's
+Both have same amount of repeats (2) so no word goes at 
+the output
+
+CASE 3
+
+	Input: 'YOOOOO CHECK THIS OUT BUDDY'
+
+	Output:'YOOOOO'
+
+Explaination: YOOOOO contains 5 O's and no other word has
+a letter repeatence of more than 5 so YOOOOO is given as
+the Output

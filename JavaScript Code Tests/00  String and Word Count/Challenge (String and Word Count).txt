@@ -1,0 +1,23 @@
+Given a string at input in the format
+'word1=word2 word3=word4'
+
+Our task is to replace each word around the '=' sign with 
+the number of letters it contains.
+
+CASE 1
+
+	Input: 'abcd=efgh ijk=lmnop'
+
+	Output: 4=4 3=5
+
+CASE 2
+
+	Input: 'Name=Dr. John Doe Number=555-Doc'
+
+	Output: 4=12 6=7
+
+CASE 3
+
+	Input: 'a=b b=c c=d d=e'
+
+	Output: 1=1 1=1 1=1 1=1
